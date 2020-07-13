@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>start</display-name>
+  <servlet>
+  <servlet-name>start</servlet-name>
+  <servlet-class>st</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>start</servlet-name>
+  <url-pattern></url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>student_login</servlet-name>
+  <servlet-class>stlogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>student_login</servlet-name>
+  <url-pattern>/student_login</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>student_logout</servlet-name>
+  <servlet-class>logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>student_logout</servlet-name>
+  <url-pattern>/logt</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>student_home</servlet-name>
+  <servlet-class>std_home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>student_home</servlet-name>
+  <url-pattern>/std_ho</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>student_profile</servlet-name>
+  <servlet-class>std_profile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>student_profile</servlet-name>
+  <url-pattern>/std_pro</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>student_show_ntf</servlet-name>
+  <servlet-class>std_ntfs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>student_show_ntf</servlet-name>
+  <url-pattern>/std_ntf</url-pattern> 
+  </servlet-mapping>
+	    
+  <servlet>
+  <servlet-name>_create_ntf</servlet-name>
+  <servlet-class>std_createpost</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>_create_ntf</servlet-name>
+  <url-pattern>/std_cntf</url-pattern> 
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>active_queue</servlet-name>
+  <servlet-class>active_queues</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>active_queue</servlet-name>
+  <url-pattern>/active_queue</url-pattern> 
+  </servlet-mapping>
+      <servlet>
+      
+  <servlet-name>_book_slot</servlet-name>
+  <servlet-class>book_slot</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>_book_slot</servlet-name>
+  <url-pattern>/std_book_slot</url-pattern> 
+  </servlet-mapping>
+  
+  
+<servlet>
+  <servlet-name>_add_attachments_</servlet-name>
+  <servlet-class>add_attachments_</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>_add_attachments_</servlet-name>
+  <url-pattern>/UploadServlet</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>download</servlet-name>
+  <servlet-class>download_file</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>download</servlet-name>
+  <url-pattern>/download_f</url-pattern> 
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>faculty_login</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>faculty_login</servlet-name>
+  <url-pattern>/faculty_login</url-pattern> 
+  </servlet-mapping>
+
+   <servlet>
+  <servlet-name>faculty_home</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>faculty_home</servlet-name>
+  <url-pattern>/fac_ho</url-pattern> 
+  </servlet-mapping>
+
+
+ <servlet>
+  <servlet-name>create_qform</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_crtq_form</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>create_qform</servlet-name>
+  <url-pattern>/create_qform</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+  <servlet-name>create_q</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_create_queue</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>create_q</servlet-name>
+  <url-pattern>/_create_queue</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+  <servlet-name>fac_active_q</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_active_q</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fac_active_q</servlet-name>
+  <url-pattern>/fac_active_queue</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+  <servlet-name>fac_handle_q</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_handle_q</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fac_handle_q</servlet-name>
+  <url-pattern>/fac_handle_q</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+  <servlet-name>fac_delete_q</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_delete_q</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fac_delete_q</servlet-name>
+  <url-pattern>/fac_deleteq_queue</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+  <servlet-name>_pass_std</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_pass_std</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>_pass_std</servlet-name>
+  <url-pattern>/pass_std</url-pattern> 
+  </servlet-mapping>
+
+
+<servlet>
+  <servlet-name>fac_profile</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_pro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fac_profile</servlet-name>
+  <url-pattern>/fac_pro</url-pattern> 
+  </servlet-mapping>
+
+
+<servlet>
+  <servlet-name>user_ntf</servlet-name>
+  <servlet-class>user_ntfs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>user_ntf</servlet-name>
+  <url-pattern>/user_ntf</url-pattern> 
+  </servlet-mapping>
+
+
+<servlet>
+  <servlet-name>user_ntf_clg</servlet-name>
+  <servlet-class>user_ntfs_clg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>user_ntf_clg</servlet-name>
+  <url-pattern>/user_ntf_clg</url-pattern> 
+  </servlet-mapping>
+
+
+<servlet>
+  <servlet-name>clg_ntf</servlet-name>
+  <servlet-class>clg_ntfs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>clg_ntf</servlet-name>
+  <url-pattern>/clg_ntf</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+  <servlet-name>admin_login</servlet-name>
+  <servlet-class>collegeportal.admin.admin_login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_login</servlet-name>
+  <url-pattern>/admin_login</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+  <servlet-name>admin_home</servlet-name>
+  <servlet-class>collegeportal.admin.admin_home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_home</servlet-name>
+  <url-pattern>/admin_home</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+  <servlet-name>admin_manage_std</servlet-name>
+  <servlet-class>collegeportal.admin.admin_manage_std</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_manage_std</servlet-name>
+  <url-pattern>/manage_std</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+  <servlet-name>admin_manage_fac</servlet-name>
+  <servlet-class>collegeportal.admin.admin_manage_fac</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_manage_fac</servlet-name>
+  <url-pattern>/manage_fac</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+  <servlet-name>admin_manage_ntfs</servlet-name>
+  <servlet-class>collegeportal.admin.admin_manage_std_ntfs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_manage_ntfs</servlet-name>
+  <url-pattern>/manage_ntf</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+  <servlet-name>admin_manage_clg_ntfs</servlet-name>
+  <servlet-class>collegeportal.admin.admin_manage_clg_ntfs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_manage_clg_ntfs</servlet-name>
+  <url-pattern>/manage_clg_ntf</url-pattern> 
+  </servlet-mapping>
+
+
+<servlet>
+  <servlet-name>admin_delete_std</servlet-name>
+  <servlet-class>collegeportal.admin.admin_delete_std</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_delete_std</servlet-name>
+  <url-pattern>/delete_std</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+  <servlet-name>admin_delete_fac</servlet-name>
+  <servlet-class>collegeportal.admin.admin_delete_fac</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_delete_fac</servlet-name>
+  <url-pattern>/delete_fac</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>admin_editaddstd</servlet-name>
+  <servlet-class>collegeportal.admin.admin_addedit_std</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_editaddstd</servlet-name>
+  <url-pattern>/edit_std</url-pattern> 
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>admin_editaddfac</servlet-name>
+  <servlet-class>collegeportal.admin.admin_addedit_fac</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_editaddfac</servlet-name>
+  <url-pattern>/edit_fac</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>admin_edit_std</servlet-name>
+  <servlet-class>collegeportal.admin.admin_edit_std</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_edit_std</servlet-name>
+  <url-pattern>/_edit_std</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>admin_edit_fac</servlet-name>
+  <servlet-class>collegeportal.admin.admin_edit_fac</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_edit_fac</servlet-name>
+  <url-pattern>/_edit_fac</url-pattern> 
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>admin_add_std</servlet-name>
+  <servlet-class>collegeportal.admin.admin_add_std</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_add_std</servlet-name>
+  <url-pattern>/_add_std</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>admin_add_fac</servlet-name>
+  <servlet-class>collegeportal.admin.admin_add_fac</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_add_fac</servlet-name>
+  <url-pattern>/_add_fac</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>admin_show_report</servlet-name>
+  <servlet-class>collegeportal.admin.admin_show_report</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_show_report</servlet-name>
+  <url-pattern>/show_reports</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>admin_del_report</servlet-name>
+  <servlet-class>collegeportal.admin.admin_delete_report</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>admin_del_report</servlet-name>
+  <url-pattern>/del_reports</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>active_assigment</servlet-name>
+  <servlet-class>active_assignments</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>active_assigment</servlet-name>
+  <url-pattern>/active_ass</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>sub_assignment</servlet-name>
+  <servlet-class>submit_assignment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>sub_assignment</servlet-name>
+  <url-pattern>/sub_ass</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>academic</servlet-name>
+  <servlet-class>academics</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>academic</servlet-name>
+  <url-pattern>/academics</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>deletentf</servlet-name>
+  <servlet-class>delete_ntf</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>deletentf</servlet-name>
+  <url-pattern>/delete_ntf</url-pattern> 
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>fac_add_academics</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_add_academics_</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fac_add_academics</servlet-name>
+  <url-pattern>/_add_academics</url-pattern> 
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>_fac_add_academics</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_add_academics</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>_fac_add_academics</servlet-name>
+  <url-pattern>/add_academics</url-pattern> 
+  </servlet-mapping>
+  
+ 
+  
+   <servlet>
+  <servlet-name>fac_delete_academics</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_delete_academics</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fac_delete_academics</servlet-name>
+  <url-pattern>/delete_academics</url-pattern> 
+  </servlet-mapping>
+  
+    
+   <servlet>
+  <servlet-name>_fac_delete_academics</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_delete_academics_</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>_fac_delete_academics</servlet-name>
+  <url-pattern>/_delete_academics</url-pattern> 
+  </servlet-mapping>
+
+   <servlet>
+  <servlet-name>fac_create_assignment</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_create_assignment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fac_create_assignment</servlet-name>
+  <url-pattern>/create_assignment</url-pattern> 
+  </servlet-mapping>  
+  
+     <servlet>
+  <servlet-name>_fac_create_assignment</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_create_assignment_</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>_fac_create_assignment</servlet-name>
+  <url-pattern>/_create_assignment</url-pattern> 
+  </servlet-mapping>  
+  
+       <servlet>
+  <servlet-name>fac_view_assignment</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_view_assignment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fac_view_assignment</servlet-name>
+  <url-pattern>/view_assignment</url-pattern> 
+  </servlet-mapping> 
+  
+   <servlet>
+  <servlet-name>fac_download_assignment</servlet-name>
+  <servlet-class>collegeportal.faculty.fac_download_assignment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fac_download_assignment</servlet-name>
+  <url-pattern>/download_assignment</url-pattern> 
+  </servlet-mapping>
+  
+  
+</web-app>
