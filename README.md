@@ -10,5 +10,5 @@ First import collegeportal.sql in your machine in order to run college portal
 Firstly create some dummy credentials with admin panle.login to admin panel by running admin_login.html.Now start College Portal by runing st.java you can login as a faculty or student by st.java
 
 ## Note:
-This my first project on Github kindly if you have any suggestions or feedbacks feel free to message me. I would love to hear you from you.
+This my first project on Github kindly if you have any suggestions or feedbacks feel free to message me. I would love to hear from you.
 Thankyou for reading this.
